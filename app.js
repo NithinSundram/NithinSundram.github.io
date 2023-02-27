@@ -15,10 +15,10 @@ toggleButton.addEventListener('click', () => {
 //To Change Images of Background
 
 var imagesLocationBackground = [
-    "Images/KayakPerhentian.jpg",
-    "Images/PenangJetski.jpg",
-    "Images/SeaPicPD.jpg",
-    "Images/PerhentianBlueWaters.jpg"
+    "Images/KayakPerhentian.JPG",
+    "Images/PenangJetski.JPG",
+    "Images/SeaPicPD.JPG",
+    "Images/PerhentianBlueWaters.JPG"
 ];
 
 var indexBackgroundImage = 0;
