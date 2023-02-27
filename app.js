@@ -176,11 +176,11 @@ function imagesChangeAnimalBabesPhotos() {
     if (animalBabesImages >= noOfImagesAnimalBabes) {
         animalBabesImages = 1;
         var stringAnimalBabesImages = animalBabesImages.toString();
-        document.getElementById("photographyAnimalBabes").src = "file:///C:/Users/User/WebSite/WebSite_ForWP/Photography_Images/AnimalBabes/" + stringAnimalBabesImages + ".JPG";
+        document.getElementById("photographyAnimalBabes").src = "Photography_Images/AnimalBabes/" + stringAnimalBabesImages + ".JPG";
         //document.getElementById("photographyFamily").src = "file:///C:/Users/User/WebSite/WebSite_ForWP/Images/" + familyImages + ".jpg";
     } else {
         var stringAnimalBabesImages = animalBabesImages.toString();
-        document.getElementById("photographyAnimalBabes").src = "file:///C:/Users/User/WebSite/WebSite_ForWP/Photography_Images/AnimalBabes/" + stringAnimalBabesImages + ".JPG";
+        document.getElementById("photographyAnimalBabes").src = "Photography_Images/AnimalBabes/" + stringAnimalBabesImages + ".JPG";
         animalBabesImages++;
     }
    
