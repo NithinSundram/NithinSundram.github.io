@@ -15,10 +15,10 @@ toggleButton.addEventListener('click', () => {
 //To Change Images of Background
 
 var imagesLocationBackground = [
-    "file:///C:/Users/User/WebSite/WebSite_ForWP/Images/KayakPerhentian.jpg",
-    "file:///C:/Users/User/WebSite/WebSite_ForWP/Images/PenangJetski.jpg",
-    "file:///C:/Users/User/WebSite/WebSite_ForWP/Images/SeaPicPD.jpg",
-    "file:///C:/Users/User/WebSite/WebSite_ForWP/Images/PerhentianBlueWaters.jpg"
+    "Images/KayakPerhentian.jpg",
+    "Images/PenangJetski.jpg",
+    "Images/SeaPicPD.jpg",
+    "Images/PerhentianBlueWaters.jpg"
 ];
 
 var indexBackgroundImage = 0;
@@ -52,11 +52,11 @@ function imagesChangeFamilyPhotos() {
     if (familyImages >= noOfImagesFamily) {
         familyImages = 1;
         var stringFamilyImages = familyImages.toString();
-        document.getElementById("photographyFamily").src = "file:///C:/Users/User/WebSite/WebSite_ForWP/Photography_Images/Family/" + stringFamilyImages + ".JPG";
+        document.getElementById("photographyFamily").src = "Photography_Images/Family/" + stringFamilyImages + ".JPG";
         //document.getElementById("photographyFamily").src = "file:///C:/Users/User/WebSite/WebSite_ForWP/Images/" + familyImages + ".jpg";
     } else {
         var stringFamilyImages = familyImages.toString();
-        document.getElementById("photographyFamily").src = "file:///C:/Users/User/WebSite/WebSite_ForWP/Photography_Images/Family/" + stringFamilyImages + ".JPG";
+        document.getElementById("photographyFamily").src = "Photography_Images/Family/" + stringFamilyImages + ".JPG";
         familyImages++;
     }
    
@@ -77,11 +77,11 @@ function imagesChangeFriendsPhotos() {
     if (friendsImages >= noOfImagesFriends) {
         friendsImages = 1;
         var stringFriendsImages = friendsImages.toString();
-        document.getElementById("photographyFamily").src = "file:///C:/Users/User/WebSite/WebSite_ForWP/Photography_Images/Friends/" + stringFriendsImages + ".JPG";
+        document.getElementById("photographyFamily").src = "Photography_Images/Friends/" + stringFriendsImages + ".JPG";
         //document.getElementById("photographyFamily").src = "file:///C:/Users/User/WebSite/WebSite_ForWP/Images/" + familyImages + ".jpg";
     } else {
         var stringFriendsImages = friendsImages.toString();
-        document.getElementById("photographyFriends").src = "file:///C:/Users/User/WebSite/WebSite_ForWP/Photography_Images/Friends/" + stringFriendsImages + ".JPG";
+        document.getElementById("photographyFriends").src = "Photography_Images/Friends/" + stringFriendsImages + ".JPG";
         friendsImages++;
     }
    
@@ -101,11 +101,11 @@ function imagesChangeMOREOFMEPhotos() {
     if (MOREOFMEImages >= noOfImagesMOREOFME) {
         MOREOFMEImages = 1;
         var stringMOREOFMEImages = MOREOFMEImages.toString();
-        document.getElementById("photographyMoreOfMe").src = "file:///C:/Users/User/WebSite/WebSite_ForWP/Photography_Images/MoreOfMe/" + stringMOREOFMEImages + ".JPG";
+        document.getElementById("photographyMoreOfMe").src = "Photography_Images/MoreOfMe/" + stringMOREOFMEImages + ".JPG";
         //document.getElementById("photographyFamily").src = "file:///C:/Users/User/WebSite/WebSite_ForWP/Images/" + familyImages + ".jpg";
     } else {
         var stringMOREOFMEImages = MOREOFMEImages.toString();
-        document.getElementById("photographyMoreOfMe").src = "file:///C:/Users/User/WebSite/WebSite_ForWP/Photography_Images/MoreOfMe/" + stringMOREOFMEImages + ".JPG";
+        document.getElementById("photographyMoreOfMe").src = "Photography_Images/MoreOfMe/" + stringMOREOFMEImages + ".JPG";
         MOREOFMEImages++;
     }
    
@@ -126,11 +126,11 @@ function imagesChangeViewsPhotos() {
     if (viewsImages >= noOfImagesViews) {
         viewsImages = 1;
         var stringViewsImages = viewsImages.toString();
-        document.getElementById("photographyViews").src = "file:///C:/Users/User/WebSite/WebSite_ForWP/Photography_Images/Views/" + stringViewsImages + ".JPG";
+        document.getElementById("photographyViews").src = "Photography_Images/Views/" + stringViewsImages + ".JPG";
         //document.getElementById("photographyFamily").src = "file:///C:/Users/User/WebSite/WebSite_ForWP/Images/" + familyImages + ".jpg";
     } else {
         var stringViewsImages = viewsImages.toString();
-        document.getElementById("photographyViews").src = "file:///C:/Users/User/WebSite/WebSite_ForWP/Photography_Images/Views/" + stringViewsImages + ".JPG";
+        document.getElementById("photographyViews").src = "Photography_Images/Views/" + stringViewsImages + ".JPG";
         viewsImages++;
     }
    
@@ -151,11 +151,11 @@ function imagesChangeEveryonePhotos() {
     if (everyoneImages >= noOfImagesEveryone) {
         everyoneImages = 1;
         var stringEveryoneImages = everyoneImages.toString();
-        document.getElementById("photographyEveryone").src = "file:///C:/Users/User/WebSite/WebSite_ForWP/Photography_Images/Everyone/" + stringEveryoneImages + ".JPG";
+        document.getElementById("photographyEveryone").src = "Photography_Images/Everyone/" + stringEveryoneImages + ".JPG";
         //document.getElementById("photographyFamily").src = "file:///C:/Users/User/WebSite/WebSite_ForWP/Images/" + familyImages + ".jpg";
     } else {
         var stringEveryoneImages = everyoneImages.toString();
-        document.getElementById("photographyEveryone").src = "file:///C:/Users/User/WebSite/WebSite_ForWP/Photography_Images/Everyone/" + stringEveryoneImages + ".JPG";
+        document.getElementById("photographyEveryone").src = "Photography_Images/Everyone/" + stringEveryoneImages + ".JPG";
         everyoneImages++;
     }
    
