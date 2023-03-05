@@ -167,7 +167,7 @@ function startImagesChangeEveryonePhotos() {
 
 //JS for First Image Labelled AnimalBabes
 
-var noOfImagesAnimalBabes = 9;
+var noOfImagesAnimalBabes = 10;
 
 var animalBabesImages = 1;
 
