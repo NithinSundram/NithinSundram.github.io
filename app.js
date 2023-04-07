@@ -55,11 +55,11 @@ function imagesChangeFamilyPhotos() {
     if (familyImages >= noOfImagesFamily) {
         familyImages = 1;
         var stringFamilyImages = familyImages.toString();
-        document.getElementById("photographyFamily").src = "file:///C:/Users/User/WebSite/WebSite_ForWP/Photography_Images/Family/" + stringFamilyImages + ".jpg";
+        document.getElementById("photographyFamily").src = "Photography_Images/Family/" + stringFamilyImages + ".jpg";
         //document.getElementById("photographyFamily").src = "file:///C:/Users/User/WebSite/WebSite_ForWP/Images/" + familyImages + ".jpg";
     } else {
         var stringFamilyImages = familyImages.toString();
-        document.getElementById("photographyFamily").src = "file:///C:/Users/User/WebSite/WebSite_ForWP/Photography_Images/Family/" + stringFamilyImages + ".jpg";
+        document.getElementById("photographyFamily").src = "Photography_Images/Family/" + stringFamilyImages + ".jpg";
         familyImages++;
     }
    
@@ -80,11 +80,11 @@ function imagesChangeFriendsPhotos() {
     if (friendsImages >= noOfImagesFriends) {
         friendsImages = 1;
         var stringFriendsImages = friendsImages.toString();
-        document.getElementById("photographyFamily").src = "file:///C:/Users/User/WebSite/WebSite_ForWP/Photography_Images/Friends/" + stringFriendsImages + ".jpg";
+        document.getElementById("photographyFamily").src = "Photography_Images/Friends/" + stringFriendsImages + ".jpg";
         //document.getElementById("photographyFamily").src = "file:///C:/Users/User/WebSite/WebSite_ForWP/Images/" + familyImages + ".jpg";
     } else {
         var stringFriendsImages = friendsImages.toString();
-        document.getElementById("photographyFriends").src = "file:///C:/Users/User/WebSite/WebSite_ForWP/Photography_Images/Friends/" + stringFriendsImages + ".jpg";
+        document.getElementById("photographyFriends").src = "Photography_Images/Friends/" + stringFriendsImages + ".jpg";
         friendsImages++;
     }
    
@@ -104,11 +104,11 @@ function imagesChangeMOREOFMEPhotos() {
     if (MOREOFMEImages >= noOfImagesMOREOFME) {
         MOREOFMEImages = 1;
         var stringMOREOFMEImages = MOREOFMEImages.toString();
-        document.getElementById("photographyMoreOfMe").src = "file:///C:/Users/User/WebSite/WebSite_ForWP/Photography_Images/MoreOfMe/" + stringMOREOFMEImages + ".jpg";
+        document.getElementById("photographyMoreOfMe").src = "Photography_Images/MoreOfMe/" + stringMOREOFMEImages + ".jpg";
         //document.getElementById("photographyFamily").src = "file:///C:/Users/User/WebSite/WebSite_ForWP/Images/" + familyImages + ".jpg";
     } else {
         var stringMOREOFMEImages = MOREOFMEImages.toString();
-        document.getElementById("photographyMoreOfMe").src = "file:///C:/Users/User/WebSite/WebSite_ForWP/Photography_Images/MoreOfMe/" + stringMOREOFMEImages + ".jpg";
+        document.getElementById("photographyMoreOfMe").src = "Photography_Images/MoreOfMe/" + stringMOREOFMEImages + ".jpg";
         MOREOFMEImages++;
     }
    
@@ -129,11 +129,11 @@ function imagesChangeViewsPhotos() {
     if (viewsImages >= noOfImagesViews) {
         viewsImages = 1;
         var stringViewsImages = viewsImages.toString();
-        document.getElementById("photographyViews").src = "file:///C:/Users/User/WebSite/WebSite_ForWP/Photography_Images/Views/" + stringViewsImages + ".jpg";
+        document.getElementById("photographyViews").src = "Photography_Images/Views/" + stringViewsImages + ".jpg";
         //document.getElementById("photographyFamily").src = "file:///C:/Users/User/WebSite/WebSite_ForWP/Images/" + familyImages + ".jpg";
     } else {
         var stringViewsImages = viewsImages.toString();
-        document.getElementById("photographyViews").src = "file:///C:/Users/User/WebSite/WebSite_ForWP/Photography_Images/Views/" + stringViewsImages + ".jpg";
+        document.getElementById("photographyViews").src = "Photography_Images/Views/" + stringViewsImages + ".jpg";
         viewsImages++;
     }
    
@@ -154,11 +154,11 @@ function imagesChangeEveryonePhotos() {
     if (everyoneImages >= noOfImagesEveryone) {
         everyoneImages = 1;
         var stringEveryoneImages = everyoneImages.toString();
-        document.getElementById("photographyEveryone").src = "file:///C:/Users/User/WebSite/WebSite_ForWP/Photography_Images/Everyone/" + stringEveryoneImages + ".jpg";
+        document.getElementById("photographyEveryone").src = "Photography_Images/Everyone/" + stringEveryoneImages + ".jpg";
         //document.getElementById("photographyFamily").src = "file:///C:/Users/User/WebSite/WebSite_ForWP/Images/" + familyImages + ".jpg";
     } else {
         var stringEveryoneImages = everyoneImages.toString();
-        document.getElementById("photographyEveryone").src = "file:///C:/Users/User/WebSite/WebSite_ForWP/Photography_Images/Everyone/" + stringEveryoneImages + ".jpg";
+        document.getElementById("photographyEveryone").src = "Photography_Images/Everyone/" + stringEveryoneImages + ".jpg";
         everyoneImages++;
     }
    
@@ -179,11 +179,11 @@ function imagesChangeAnimalBabesPhotos() {
     if (animalBabesImages >= noOfImagesAnimalBabes) {
         animalBabesImages = 1;
         var stringAnimalBabesImages = animalBabesImages.toString();
-        document.getElementById("photographyAnimalBabes").src = "file:///C:/Users/User/WebSite/WebSite_ForWP/Photography_Images/AnimalBabes/" + stringAnimalBabesImages + ".jpg";
+        document.getElementById("photographyAnimalBabes").src = "Photography_Images/AnimalBabes/" + stringAnimalBabesImages + ".jpg";
         //document.getElementById("photographyFamily").src = "file:///C:/Users/User/WebSite/WebSite_ForWP/Images/" + familyImages + ".jpg";
     } else {
         var stringAnimalBabesImages = animalBabesImages.toString();
-        document.getElementById("photographyAnimalBabes").src = "file:///C:/Users/User/WebSite/WebSite_ForWP/Photography_Images/AnimalBabes/" + stringAnimalBabesImages + ".jpg";
+        document.getElementById("photographyAnimalBabes").src = "Photography_Images/AnimalBabes/" + stringAnimalBabesImages + ".jpg";
         animalBabesImages++;
     }
    
